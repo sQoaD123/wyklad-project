@@ -11,4 +11,6 @@ router.post("/", articleController.createArticle);
 // GET /api/articles/:id - Get specific article (e.g. /api/articles/5)
 router.get("/:id", articleController.getArticleById);
 
+router.post("/:id/vote", articleController.voteArticle);
+
 module.exports = router;

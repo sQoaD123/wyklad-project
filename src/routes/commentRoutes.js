@@ -10,4 +10,6 @@ router.get("/:articleId", commentController.getCommentsByArticleId);
 // Body: { article_id: 1, parent_id: null, author: "Me", content: "Hi" }
 router.post("/", commentController.addComment);
 
+router.post("/:id/vote", commentController.voteComment);
+
 module.exports = router;
