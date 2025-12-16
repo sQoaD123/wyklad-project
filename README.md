@@ -5,7 +5,7 @@ Kompletna aplikacja webowa typu Full-Stack, stworzona jako projekt zaliczeniowy.
 **Zespół**
 
 - Bohdan Demydiuk
-- Mikchail Kocherov
+- Mikhail Kocherov
 - Grupa: 2
 
 **Linki do projektu**
