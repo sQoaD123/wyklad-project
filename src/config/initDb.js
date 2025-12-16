@@ -8,7 +8,9 @@ const createTables = async () => {
         title VARCHAR(255) NOT NULL,
         content TEXT NOT NULL,
         author VARCHAR(100) NOT NULL,
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        likes INTEGER DEFAULT 0,
+        dislikes INTEGER DEFAULT 0
       );
     `);
     console.log('Created "articles" table.');
@@ -20,7 +22,9 @@ const createTables = async () => {
         parent_id INTEGER REFERENCES comments(id) ON DELETE CASCADE, 
         author VARCHAR(100) NOT NULL,
         content TEXT NOT NULL,
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        likes INTEGER DEFAULT 0,
+        dislikes INTEGER DEFAULT 0
       );
     `);
     console.log('Created "comments" table.');

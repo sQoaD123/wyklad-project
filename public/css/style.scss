@@ -180,3 +180,34 @@ form {
     box-sizing: border-box;
   }
 }
+
+.vote-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+
+  button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background: #e0e0e0;
+    }
+
+    &.voted {
+      background: $primary-color;
+      color: white;
+      border-color: $primary-color;
+    }
+  }
+}
