@@ -11,7 +11,7 @@ Kompletna aplikacja webowa typu Full-Stack, stworzona jako projekt zaliczeniowy.
 **Linki do projektu**
 
 - Działająca aplikacja (Render): https://wyklad-project.onrender.com/
-- Strona opisowa (GitHub Pages): [LINK DO GITHUB PAGES]
+- Strona opisowa (GitHub Pages): https://sqoad123.github.io/wyklad-project/
 - Prezentacja: https://docs.google.com/presentation/d/1jb0qFEKusreA-7DXLjRAw_XEyVszGrNs82tEsFGMy_U/edit?usp=sharing
 
 **Funkcjonalności**
